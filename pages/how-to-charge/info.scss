@@ -1,0 +1,21 @@
+.imgWrapper {
+  position:relative;
+  margin:0 auto;
+  width:600px;
+}
+
+.charger, .spiral {
+  position:absolute;
+}
+
+.spiral {
+  left:0;
+  right:0;
+
+}
+
+.charger {
+  left:0; 
+  right:11px;
+  top:50px;
+}

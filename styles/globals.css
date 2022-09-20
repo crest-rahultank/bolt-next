@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  transition: all 0.4s ease;
+}
+
+a:hover,
+a:active,
+a:active:hover,
+a:active:focus,
+a:focus-within {
+  color: #14A800 !important;
+}
+
+.loader-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.app-container {
+  min-height: 350px;
+}
+
+.banner {
+  background-color: #0F0F0F;
+  color: #ffff;
+  display: flex;
+  padding: 3% 0 0.5%;
+  margin-top: -1px;
+}
+
+.banner-content {
+  width: 60vw;
+  padding-top: 6rem;
+  margin-left: 10rem;
+  line-height: 56px;
+}
+
+.blog-banner {
+  background-color: #0F0F0F;
+  color: #ffff;
+  display: flex;
+  padding: 4% 0 4%;
+  background-image: url('../assets/svg/bgform/guidelines.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.banner-content-description {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.header-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.smartphone-image-wrapper {
+  background-image: url('../assets/images/smartphone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100%;
+}
+
+@media only screen and (min-width: 2200px) {
+  .container-fluid {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .banner {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .banner {
+    background-color: #0F0F0F;
+    color: #ffff;
+  }
+
+  .banner-content-sm {
+    position: relative;
+  }
+
+  .header-title {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .banner-content-description {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-building {
+    background-image: url('../assets/svg/headers/Building.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+    padding-bottom: 3%;
+  }
+
+  .banner-home {
+    background-image: url('../assets/svg/headers/Home.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+    padding-bottom: 3%;
+  }
+}

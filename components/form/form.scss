@@ -1,0 +1,24 @@
+.advisor-form{
+  background-image: url('../../assets/svg/bgform/guidelines.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 593px;
+}
+
+.latest-updates-form{
+  background-image: url('../../assets/svg/bgform/guidelines.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.connect-form{
+  input{
+    padding: 16px;
+    height: auto;
+  }
+}
+
+// @media only screen and (max-width: 400px) {
+//   .row{width: 100% !important;}
+// }

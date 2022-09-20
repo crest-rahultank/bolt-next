@@ -1,0 +1,40 @@
+.bolt-solution-holder {
+  background-color: #FFFFFF;
+
+.solution-wrapper {
+  .accordion {
+      .accordion-item {
+          .accordion-header {
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 32px;
+              color: #3D3D3D;
+              padding: 20px 0;
+              margin-bottom: unset;
+              position: relative;
+              button {
+                  border: none !important;
+                  background-color: transparent !important;
+                  box-shadow: none !important;
+                  outline: none !important;
+                  text-align: left;
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between; 
+                  &.collapsed {
+                    span {
+                      transition: all 0.5s ease;
+                      transform: none;
+                    }
+                  }
+                  span {
+                    transition: all 0.5s ease;
+                    transform: rotate(180deg);
+                  }
+              }
+          }
+      }
+  }
+}
+}
