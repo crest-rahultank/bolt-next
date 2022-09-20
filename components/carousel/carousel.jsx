@@ -101,7 +101,7 @@ function BannerCarousel(props) {
           padding: 0 0;
         }`}
       </style>
-      <Carousel className='bg-[#0F0F0F]' activeIndex={activeIndex} interval={null}>
+      <Carousel className='bg-[#0F0F0F]' activeIndex={activeIndex} interval={null} next={next} previous={previous}>
         <CarouselIndicators
           items={items}
           activeIndex={activeIndex}
